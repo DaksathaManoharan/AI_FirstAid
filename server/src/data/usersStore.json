@@ -1,0 +1,33 @@
+[
+  {
+    "id": "usr_1791386848066",
+    "name": "daksathamanoharan",
+    "email": "daksathamanoharan@gmail.com",
+    "passwordHash": "$2a$10$PaZlEGJfb9enUyRpbHPaAuJ.n6eMJ0bSk4W.6ayZWkwOnhFA4p4xW",
+    "preferredLanguage": "en",
+    "resetToken": null,
+    "resetOtp": null,
+    "resetExpires": null,
+    "preferences": {
+      "language": "en",
+      "theme": "dark",
+      "voiceEnabled": true
+    },
+    "createdAt": "2026-10-07T15:27:28.066Z",
+    "updatedAt": "2026-10-07T15:39:26.615Z"
+  },
+  {
+    "id": "usr_1791387151125_s2zyr",
+    "name": "Test Emergency User",
+    "email": "tester@example.com",
+    "passwordHash": "$2a$10$8bGiCWh1MPJ7nGkmNtWsmemq3AZFlhNCQhVXULvFTWT/VihhLA/Nu",
+    "preferredLanguage": "ta",
+    "preferences": {
+      "language": "ta",
+      "theme": "dark",
+      "voiceEnabled": true
+    },
+    "createdAt": "2026-10-07T15:32:31.125Z",
+    "updatedAt": "2026-10-07T15:32:31.125Z"
+  }
+]

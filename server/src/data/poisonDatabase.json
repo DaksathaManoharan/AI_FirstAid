@@ -1,0 +1,50 @@
+[
+  {
+    "substance": "pesticide",
+    "aliases": ["organophosphate", "rat poison", "bug spray", "insecticide", "fertilizer"],
+    "dangerLevel": "CRITICAL",
+    "firstAidEn": "Do NOT induce vomiting. If swallowed, rinse mouth with water. If on skin or eyes, wash immediately with large amounts of clean water for 15-20 minutes. If inhaled, move to fresh air. Keep the substance bottle/label for emergency paramedics.",
+    "firstAidTa": "வாந்தி எடுக்க வைக்க வேண்டாம். விழுங்கியிருந்தால், வாயை நீரால் நன்கு கழுவவும். தோல் அல்லது கண்களில் பட்டிருந்தால், 15-20 நிமிடங்கள் ஓடும் நீரால் கழுவவும். சுவாசித்திருந்தால், நல்ல காற்றோட்டமுள்ள பகுதிக்கு மாற்றவும். நச்சு பாட்டிலை பத்திரப்படுத்தவும்.",
+    "helpline": "National Poison Information Centre (AIIMS, New Delhi): 011-26588669 / 1800-116-117"
+  },
+  {
+    "substance": "kerosene",
+    "aliases": ["petrol", "diesel", "gasoline", "motor oil", "paint thinner"],
+    "dangerLevel": "CRITICAL",
+    "firstAidEn": "WARNING: Do NOT induce vomiting under any circumstances, as inhaling hydrocarbon fumes into the lungs causes chemical pneumonia. If conscious, give small sips of water. Move to fresh air.",
+    "firstAidTa": "எச்சரிக்கை: எந்த சூழ்நிலையிலும் வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம். மண்ணெண்ணெய் ஆவி நுரையீரலுக்குள் சென்றால் நிமோனியா ஏற்படும். சுயநினைவுடன் இருந்தால் சில சிப்ஸ் தண்ணீர் கொடுக்கவும்.",
+    "helpline": "National Poison Information Centre (AIIMS): 011-26588669"
+  },
+  {
+    "substance": "cleaning bleach",
+    "aliases": ["chlorine", "detergent", "soap", "disinfectant", "floor cleaner"],
+    "dangerLevel": "URGENT",
+    "firstAidEn": "Do NOT induce vomiting. If swallowed, give 1-2 glasses of water or milk to dilute the chemical if the patient is conscious and can swallow. Wash affected skin or eyes with clean water for 15 minutes.",
+    "firstAidTa": "வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம். விழுங்கியிருந்தால், நோயாளி விழுங்கக்கூடிய நிலையில் இருந்தால் 1-2 கிளாஸ் தண்ணீர் அல்லது பால் கொடுத்து இரசாயனத்தின் வீரியத்தைக் குறைக்கவும். கண்களை நீரால் கழுவவும்.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117"
+  },
+  {
+    "substance": "acid",
+    "aliases": ["toilet cleaner", "bathroom acid", "battery acid", "corrosive"],
+    "dangerLevel": "CRITICAL",
+    "firstAidEn": "CRITICAL: Do NOT induce vomiting (it will re-burn the esophagus). Give small sips of water or milk to dilute ONLY if patient is conscious and able to swallow. Flush skin/eyes immediately with cool water for 20 minutes.",
+    "firstAidTa": "தீவிரம்: வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம் (அது உணவுக்குழாயை மீண்டும் எரிக்கும்). விழுங்க முடிந்தால் மட்டும் சிறிதளவு தண்ணீர் அல்லது பால் கொடுக்கவும். 20 நிமிடங்களுக்கு நீரால் கழுவவும்.",
+    "helpline": "National Poison Information Centre (AIIMS): 011-26588669"
+  },
+  {
+    "substance": "paracetamol",
+    "aliases": ["acetaminophen", "crocin", "calpol", "painkiller", "sleeping pills", "medicine overdose"],
+    "dangerLevel": "URGENT",
+    "firstAidEn": "Overdose of paracetamol causes severe liver damage. Do NOT induce vomiting. Note the number of tablets and the milligram strength. Call emergency services immediately. Paramedics may administer activated charcoal.",
+    "firstAidTa": "பாராசிட்டமால் அளவுக்கதிகமாக உட்கொள்வது கடுமையான கல்லீரல் பாதிப்பை ஏற்படுத்தும். வாந்தி எடுக்க வைக்க வேண்டாம். மாத்திரைகளின் எண்ணிக்கை மற்றும் மில்லிகிராம் அளவைக் குறித்துக் கொள்ளவும்.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117"
+  },
+  {
+    "substance": "unknown substance",
+    "aliases": ["unknown", "chemical", "poison", "pill"],
+    "dangerLevel": "CRITICAL",
+    "firstAidEn": "Assess consciousness and breathing. If unconscious or not breathing, start CPR immediately and dial 112/108. Do NOT induce vomiting. Secure the container or vomit sample for medical analysis.",
+    "firstAidTa": "சுயநினைவு மற்றும் சுவாசத்தை சரிபார்க்கவும். சுயநினைவு இல்லையெனில், உடனடியாக CPR தொடங்கி 112/108 ஐ அழைக்கவும். வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம். நச்சு பாட்டிலை பத்திரப்படுத்தவும்.",
+    "helpline": "National Emergency: 112 / Ambulance: 108"
+  }
+]

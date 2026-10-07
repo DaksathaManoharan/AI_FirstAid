@@ -1,0 +1,77 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id                String             @id @default(uuid())
+  name              String
+  email             String             @unique
+  passwordHash      String
+  preferredLanguage String             @default("en")
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+  sessions          EmergencySession[]
+  checklists        DisasterChecklist[]
+  preferences       UserPreference?
+}
+
+model EmergencyGuide {
+  id        String   @id @default(uuid())
+  type      String   @unique // e.g., "cpr", "choking", "bleeding"
+  titleEn   String
+  titleTa   String
+  severity  String   // e.g., "CRITICAL", "URGENT", "MODERATE"
+  contentEn Json     // Rich JSON structured steps and metadata
+  contentTa Json     // Rich JSON structured steps and metadata in Tamil
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model EmergencyResource {
+  id           String   @id @default(uuid())
+  name         String
+  type         String   // e.g., "hospital", "aed", "pharmacy"
+  latitude     Float
+  longitude    Float
+  address      String?
+  phone        String?
+  openingHours String?
+  source       String   @default("seeded") // "seeded" or "overpass"
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model EmergencySession {
+  id            String   @id @default(uuid())
+  userId        String?
+  user          User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  emergencyType String
+  severity      String
+  description   String
+  latitude      Float?
+  longitude     Float?
+  createdAt     DateTime @default(now())
+}
+
+model DisasterChecklist {
+  id           String   @id @default(uuid())
+  userId       String?
+  user         User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  disasterType String   // e.g., "flood", "cyclone", "earthquake", "fire", "lightning", "heatwave"
+  item         String   // checklist item text
+  completed    Boolean  @default(false)
+}
+
+model UserPreference {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language     String   @default("en")
+  theme        String   @default("dark")
+  voiceEnabled Boolean  @default(true)
+}

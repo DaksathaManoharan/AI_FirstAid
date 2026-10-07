@@ -1,0 +1,480 @@
+[
+  {
+    "id": "sub_paracetamol",
+    "canonical_name": "Paracetamol",
+    "generic_name": "Paracetamol / Acetaminophen",
+    "brand_names": ["Dolo 650", "Crocin", "Calpol", "Tylenol", "Panadol", "Pacimol", "Febrinil", "Metacin", "P-650", "Sumo L"],
+    "synonyms": ["acetaminophen", "apap", "n-acetyl-p-aminophenol", "paracetomol", "paracitamol", "acetominophen", "painkiller tablet", "fever tablet"],
+    "active_ingredients": ["Paracetamol"],
+    "chemical_names": ["N-(4-hydroxyphenyl)acetamide"],
+    "category": "Analgesic / Antipyretic",
+    "common_forms": ["Tablet", "Syrup", "Suspension", "Suppository", "Intravenous"],
+    "risk_level": "URGENT",
+    "description": "Common pain reliever and fever reducer. Toxic to the liver (hepatotoxic) in acute overdose, especially when exceeding 150 mg/kg in children or >7.5g in adults.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting. Note the exact milligram strength (e.g. 500mg, 650mg) and the total number of tablets taken. Check the time of ingestion. Early treatment in a hospital (such as oral/IV N-acetylcysteine) is highly effective if administered within 8 hours. Transport the patient to an emergency facility immediately with the packaging.",
+        "first_aid_ta": "வாந்தி எடுக்க வைக்க வேண்டாம். மாத்திரைகளின் மில்லிகிராம் அளவு (500mg அல்லது 650mg) மற்றும் உட்கொண்ட மாத்திரைகளின் எண்ணிக்கையை குறித்துக்கொள்ளவும். உட்கொண்ட நேரத்தைக் குறித்துக்கொண்டு உடனே மருத்துவமனைக்கு கொண்டு செல்லவும். மாத்திரை அட்டையை உடன் எடுத்துச் செல்லவும்."
+      },
+      "skin": {
+        "first_aid_en": "Wash skin thoroughly with soap and clean water.",
+        "first_aid_ta": "தோலை சோப்பு மற்றும் சுத்தமான நீரால் கழுவவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes gently with lukewarm running water for 15 minutes.",
+        "first_aid_ta": "கண்களை 15 நிமிடங்களுக்கு ஓடும் நீரால் மெதுவாகக் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move person to fresh air. Seek medical care if coughing or shortness of breath persists.",
+        "first_aid_ta": "பாதிக்கப்பட்டவரை நல்ல காற்றோட்டமுள்ள இடத்திற்கு மாற்றவும்."
+      }
+    },
+    "warning_signs": [
+      "Severe nausea and persistent vomiting",
+      "Right upper abdominal pain (liver tenderness)",
+      "Pale skin and excessive sweating",
+      "Yellowing of skin or eyes (jaundice - delayed sign)",
+      "Extreme confusion or drowsiness"
+    ],
+    "contraindications": "Never induce vomiting. Do NOT administer home concoctions or other pain medications.",
+    "helpline": "National Poison Information Centre (AIIMS New Delhi): 1800-116-117 / 011-26588669 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_bleach",
+    "canonical_name": "Sodium Hypochlorite (Bleach)",
+    "generic_name": "Sodium Hypochlorite / Household Bleach",
+    "brand_names": ["Clorox", "Domex Bleach", "Ala Bleach", "White Tiger", "Robin Liquid Bleach"],
+    "synonyms": ["bleach", "chlorine bleach", "bleach liquid", "liquid bleach", "sodium hypochlorite", "hypochlorite", "bleaching powder", "laundry bleach", "blech"],
+    "active_ingredients": ["Sodium Hypochlorite (typically 3-6%)"],
+    "chemical_names": ["Sodium Hypochlorite"],
+    "category": "Household Disinfectant / Oxidizing Corrosive",
+    "common_forms": ["Liquid", "Gel", "Powder"],
+    "risk_level": "URGENT",
+    "description": "Alkaline oxidizing agent commonly used for disinfection and whitening. Causes irritation or burns to mucous membranes, esophagus, skin, and eyes. Toxic chlorine gas releases if mixed with acids or ammonia.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting under any circumstances (causes repeat burns). If the patient is alert and able to swallow, give 1-2 small sips of water to rinse and dilute. Do NOT force large amounts of fluid. Never administer vinegar or acidic neutralizing agents (produces dangerous heat and gas). Seek medical evaluation immediately.",
+        "first_aid_ta": "எக்காரணம் கொண்டும் வாந்தி எடுக்க வைக்க வேண்டாம் (உணவுக்குழாய் மீண்டும் எரியும்). நோயாளி சுயநினைவுடன் விழுங்க முடிந்தால் மட்டும் சிறிதளவு தண்ணீர் கொடுக்கவும். வினிகர் போன்ற அமிலங்களை ஒருபோதும் கொடுக்க வேண்டாம். உடனே மருத்துவ உதவி பெறவும்."
+      },
+      "eye": {
+        "first_aid_en": "IMMEDIATE EMERGENCY: Flush eyes with gently running clean water for at least 15 to 20 minutes continuously, holding eyelids open. Remove contact lenses if easy to do so. Seek urgent ophthalmic evaluation.",
+        "first_aid_ta": "உடனடி அவசரம்: இமைகளை அகல திறந்து வைத்து 15-20 நிமிடங்கள் ஓடும் சுத்தமான நீரால் தொடர்ந்து கண்களைக் கழுவவும். காண்டாக்ட் லென்ஸ்களை அகற்றவும். உடனே கண் மருத்துவரை அணுகவும்."
+      },
+      "skin": {
+        "first_aid_en": "Remove contaminated clothing immediately. Rinse affected skin with abundant running water for at least 15 minutes. Wash gently with mild soap.",
+        "first_aid_ta": "நனைந்த ஆடைகளை உடனடியாக அகற்றவும். பாதிக்கப்பட்ட தோலை 15 நிமிடங்கள் ஓடும் நீரால் நன்கு கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move patient to fresh air immediately. If bleach was mixed with toilet cleaner/acid, toxic chloramine/chlorine gas is generated. If wheezing or breathing difficulty occurs, call 112/108 immediately.",
+        "first_aid_ta": "உடனடியாக நல்ல காற்றோட்டமுள்ள இடத்திற்கு மாற்றவும். ப்ளீச்சை அமிலங்களுடன் கலந்தால் நச்சு வாயு உருவாகும். மூச்சுத்திணறல் இருந்தால் உடனடியாக 112/108ஐ அழைக்கவும்."
+      }
+    },
+    "warning_signs": [
+      "Severe burning in mouth, throat, and chest",
+      "Drooling or inability to swallow saliva",
+      "Stridor (high-pitched breathing sound) or difficulty breathing",
+      "Vomiting with blood or dark coffee-ground material",
+      "Severe eye pain, redness, or impaired vision"
+    ],
+    "contraindications": "Never induce vomiting. Never mix with acids (like toilet cleaner) or ammonia. Never attempt to neutralize with vinegar.",
+    "helpline": "National Poison Information Centre (AIIMS New Delhi): 1800-116-117 / 011-26588669 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_toilet_cleaner",
+    "canonical_name": "Hydrochloric Acid (Toilet Cleaner)",
+    "generic_name": "Hydrochloric Acid / Mineral Acid Corrosive",
+    "brand_names": ["Harpic", "Harpic Power Plus", "Sanifresh", "Domex Acid Cleaner", "Teepol Acid", "Bathroom Acid"],
+    "synonyms": ["harpic", "toilet cleaner", "toilet acid", "bathroom acid", "acid", "hydrochloric acid", "hcl", "muriatic acid", "strong acid", "descaler acid"],
+    "active_ingredients": ["Hydrochloric Acid (approx 9-12%)"],
+    "chemical_names": ["Hydrochloric Acid", "Hydrogen Chloride"],
+    "category": "Mineral Acid / Strong Corrosive",
+    "common_forms": ["Liquid", "Thick Blue Gel"],
+    "risk_level": "CRITICAL",
+    "description": "Strong corrosive mineral acid. Ingestion causes immediate, catastrophic chemical burns and ulceration of the mouth, esophagus, and stomach. Risk of esophageal perforation, gastric necrosis, and fatal airway edema.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "CRITICAL EMERGENCY: Do NOT induce vomiting (will cause repeat burn or perforation of esophagus). Do NOT give activated charcoal. Do NOT attempt to neutralize with baking soda or antacids (reaction generates heat and carbon dioxide gas, causing stomach rupture). If patient is conscious and can swallow, give small sips of water. Call 112/108 immediately.",
+        "first_aid_ta": "தீவிர அவசரநிலை: வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம் (உணவுக்குழாய் மீண்டும் எரியும் அல்லது வெடிக்கும்). சோடா உப்பு கொடுக்க வேண்டாம். விழுங்க முடிந்தால் மட்டும் சிறிதளவு தண்ணீர் கொடுக்கவும். உடனடியாக 112/108ஐ அழைக்கவும்."
+      },
+      "eye": {
+        "first_aid_en": "Rinse eye continuously with sterile saline or cool tap water for at least 20 to 30 minutes. Keep eyelid retracted. Call 112/108 or rush to emergency room.",
+        "first_aid_ta": "கண்களை 20 முதல் 30 நிமிடங்களுக்கு தொடர்ந்து குளிர்ந்த நீரால் கழுவவும். இமைகளை அகலமாக திறக்கவும். உடனடியாக அவசர பிரிவிற்கு செல்லவும்."
+      },
+      "skin": {
+        "first_aid_en": "Drench skin with copious amounts of water for 20 minutes while quickly peeling off contaminated clothing and footwear. Treat as a chemical burn.",
+        "first_aid_ta": "நனைந்த ஆடைகளை கழற்றிவிட்டு 20 நிமிடங்களுக்கு உடனே தண்ணீரை ஊற்றி கழுவவும். இரசாயன தீக்காயமாக கருதி மருத்துவரிடம் செல்லவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air immediately. Acid fumes cause acute pulmonary irritation, bronchospasm, and delayed pulmonary edema. Keep patient calm and call emergency services.",
+        "first_aid_ta": "நல்ல காற்றோட்டமுள்ள இடத்திற்கு மாற்றவும். அமில ஆவி நுரையீரலை பாதிக்கும். அவசர ஊர்தியை அழைக்கவும்."
+      }
+    },
+    "warning_signs": [
+      "Immediate unbearable mouth and epigastric burning",
+      "Inability to swallow saliva (profuse drooling)",
+      "Hoarseness or stridor (airway swelling)",
+      "Hematemesis (vomiting fresh or coffee-ground blood)",
+      "Rigid, board-like abdomen (indicates gastric perforation)"
+    ],
+    "contraindications": "Strictly contraindicated to induce vomiting or give carbonated neutralizing chemicals.",
+    "helpline": "National Poison Information Centre (AIIMS): 011-26588669 / 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_kerosene",
+    "canonical_name": "Kerosene & Hydrocarbon Fuels",
+    "generic_name": "Kerosene / Petroleum Distillate Hydrocarbon",
+    "brand_names": ["Ration Kerosene", "Blue Kerosene", "Lamp Oil", "Stove Kerosene"],
+    "synonyms": ["kerosene", "petrol", "diesel", "gasoline", "fuel oil", "motor oil", "lamp oil", "hydrocarbon", "mineral turpentine", "kerosun", "mannennai"],
+    "active_ingredients": ["Aliphatic and Aromatic Hydrocarbons (C10-C16)"],
+    "chemical_names": ["Petroleum Distillate"],
+    "category": "Volatile Hydrocarbon / Petroleum Distillate",
+    "common_forms": ["Clear or Blue Tinted Liquid"],
+    "risk_level": "CRITICAL",
+    "description": "Low-viscosity, volatile hydrocarbon. The primary life-threatening danger is chemical pneumonitis (aspiration into the lungs), which can occur easily during ingestion or vomiting.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "ABSOLUTE WARNING: NEVER induce vomiting. A single drop aspirated into the lungs causes chemical pneumonia, severe hypoxia, and lung tissue destruction. Do NOT give raw eggs or milk. If conscious, rinse the mouth with water. Keep patient calm, sitting upright, and transport immediately to a hospital.",
+        "first_aid_ta": "மிக முக்கிய எச்சரிக்கை: எந்த சூழ்நிலையிலும் வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம். ஒரு துளி நுரையீரலுக்குள் சென்றாலும் நுரையீரல் அழற்சி (chemical pneumonia) ஏற்பட்டு மரணம் நிகழலாம். வாயை நீரால் கொப்பளித்து துப்பவும். நோயாளியை நேராக அமரவைத்து உடனே மருத்துவமனைக்கு கொண்டு செல்லவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move patient to fresh outdoor air immediately. Loosen tight clothing around neck and waist. If coughing, choking, or breathing rapid, transport to medical care.",
+        "first_aid_ta": "உடனடியாக வெளிக்காற்று உள்ள இடத்திற்கு கொண்டு செல்லவும். இறுக்கமான ஆடைகளைத் தளர்த்தவும். தொடர் இருமல் இருந்தால் மருத்துவமனைக்கு அழைத்து செல்லவும்."
+      },
+      "skin": {
+        "first_aid_en": "Remove soaked clothing immediately to prevent chemical contact burns. Wash skin with soap and running water.",
+        "first_aid_ta": "மண்ணெண்ணெய் நனைந்த துணிகளை உடனே கழற்றிவிட்டு சோப்பு மற்றும் நீரால் தோலைக் கழுவவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes gently with clean water for 15 minutes. Seek medical evaluation if irritation persists.",
+        "first_aid_ta": "15 நிமிடங்களுக்கு கண்களை சுத்தமான நீரால் கழுவவும்."
+      }
+    },
+    "warning_signs": [
+      "Persistent coughing, choking, or gagging",
+      "Rapid, shallow, or labored breathing (dyspnea)",
+      "Bluish tint to lips or fingertips (cyanosis - severe lack of oxygen)",
+      "Fever and chest pain developing within hours (chemical pneumonitis)",
+      "Lethargy, drowsiness, or seizure activity"
+    ],
+    "contraindications": "Never induce vomiting. Never use stomach pump (gastric lavage) outside an intensive care unit with a cuffed endotracheal tube.",
+    "helpline": "National Poison Information Centre (AIIMS): 011-26588669 / 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_organophosphate_pesticide",
+    "canonical_name": "Organophosphate Pesticides",
+    "generic_name": "Organophosphate / Carbamate Insecticide",
+    "brand_names": ["Rogor (Dimethoate)", "Monocrotophos", "Chlorpyrifos", "Malathion", "Dursban", "Phorate (Thimet)", "Baygon Spray", "Hit Cockroach Spray"],
+    "synonyms": ["pesticide", "insecticide", "organophosphate", "crop poison", "agricultural poison", "bug spray", "rogoor", "chlorpyrifos", "dimethoate", "poochimarunthu"],
+    "active_ingredients": ["Organophosphorus compounds (Inhibitors of Acetylcholinesterase)"],
+    "chemical_names": ["Organophosphate Ester"],
+    "category": "Cholinesterase-Inhibiting Insecticide / Neurotoxin",
+    "common_forms": ["Liquid Concentrate", "Emulsifiable Concentrate", "Granules", "Spray"],
+    "risk_level": "CRITICAL",
+    "description": "Potent neurotoxic pesticides that irreversibly inhibit acetylcholinesterase, producing an acute cholinergic crisis (excessive body secretions, pinpoint pupils, muscle paralysis, respiratory arrest). Absorbed readily through skin, lungs, and stomach.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "CRITICAL LIFE HAZARD: Call 112/108 immediately. Do NOT induce vomiting if unconscious or seizing. If conscious, rinse mouth. Keep airway clear. Do NOT touch patient's vomit with bare hands (pesticide absorbs through your skin). Bring the original pesticide container/label to hospital. Specific antidotes exist (Atropine and Pralidoxime) and must be administered urgently in hospital.",
+        "first_aid_ta": "உயிருக்கு ஆபத்தான தீவிர நிலை: உடனடியாக 112/108ஐ அழைக்கவும். வாந்தி எடுக்க வைக்க முயற்சிக்க வேண்டாம். வாந்தியை வெறும் கையால் தொட வேண்டாம் (உங்கள் தோலிலும் விஷம் பரவும்). பூச்சிக்கொல்லி பாட்டிலை மருத்துவமனைக்கு எடுத்துச் செல்லவும். அட்ரோபின் (Atropine) போன்ற மாற்று மருந்துகள் உடனடியாக மருத்துவமனையில் செலுத்தப்பட வேண்டும்."
+      },
+      "skin": {
+        "first_aid_en": "Dermal absorption is rapid and deadly: Strip off all contaminated clothing immediately using gloves. Wash patient's entire body with soap and large amounts of cool water. Do not scrub harshly.",
+        "first_aid_ta": "தோல் வழியாக விஷம் வேகமாக பரவும்: கையுறை அணிந்து ஆடைகளை உடனடியாக கழற்றிவிடவும். உடலை சோப்பு மற்றும் குளிர்ந்த நீரால் நன்கு கழுவவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes with clean running water for at least 15-20 minutes. Cover loosely and transport to hospital.",
+        "first_aid_ta": "15-20 நிமிடங்கள் சுத்தமான நீரால் கண்களைக் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move patient to open fresh air immediately. Rescuer must avoid inhaling fumes. If breathing ceases, provide CPR (use bag-mask; avoid mouth-to-mouth on pesticide victims).",
+        "first_aid_ta": "உடனே நல்ல காற்றோட்டமுள்ள இடத்திற்கு மாற்றவும். செயற்கை சுவாசம் கொடுக்கும்போது நச்சு உங்கள் வாயில் படாமல் முகக்கவசம் பயன்படுத்தவும்."
+      }
+    },
+    "warning_signs": [
+      "Pinpoint pupils (constricted pupils that do not react to light)",
+      "Profuse sweating, excessive salivation, and tearing (SLUDGE syndrome)",
+      "Vomiting, diarrhea, and involuntary urination",
+      "Muscle twitching (fasciculations) followed by weakness and paralysis",
+      "Bradycardia (very slow heart rate) and respiratory arrest"
+    ],
+    "contraindications": "Never perform unprotected mouth-to-mouth resuscitation on a patient contaminated with organophosphates. Never leave patient unattended.",
+    "helpline": "National Poison Information Centre (AIIMS): 011-26588669 / 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_rat_poison",
+    "canonical_name": "Rodenticide (Rat Poison)",
+    "generic_name": "Anticoagulant / Zinc Phosphide Rodenticide",
+    "brand_names": ["Ratol Paste", "Roban Cake", "Bromadiolone Bait", "Zinc Phosphide Powder", "Pestoff"],
+    "synonyms": ["rat poison", "rodenticide", "ratol", "rat cake", "rat paste", "brodifacoum", "bromadiolone", "zinc phosphide", "eli marunthu"],
+    "active_ingredients": ["Anticoagulant (Brodifacoum/Bromadiolone) OR Zinc Phosphide"],
+    "chemical_names": ["Long-acting anticoagulant / Metallic phosphide"],
+    "category": "Rodenticide / Anticoagulant or Phosphide Toxin",
+    "common_forms": ["Yellow Paste", "Wax Cake / Pellets", "Powder / Grain Bait"],
+    "risk_level": "CRITICAL",
+    "description": "Rodenticides fall mainly into two classes: 1) Superwarfarins/anticoagulants which stop blood clotting and cause massive internal hemorrhage days later; 2) Zinc phosphide/yellow phosphorus which produces toxic phosphine gas and fatal acute liver necrosis.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "CRITICAL: Note the exact type (e.g. paste vs wax cake) and take packaging to the hospital. Do NOT induce vomiting. If conscious, rinse mouth. For anticoagulants, Vitamin K1 is a specific antidote administered in hospital. For zinc phosphide/Ratol paste, avoid giving water or acidic juices (acid accelerates phosphine gas release); transport immediately to hospital.",
+        "first_aid_ta": "தீவிரம்: எலி விஷத்தின் வகையைக் (பேஸ்ட் அல்லது கட்டி) குறித்துக்கொண்டு அட்டைப்பெட்டியுடன் மருத்துவமனைக்குச் செல்லவும். வாந்தி எடுக்க வைக்க வேண்டாம். ராடோல் பேஸ்ட் உட்கொண்டால் தண்ணீர் அல்லது பழச்சாறு அதிகம் கொடுக்க வேண்டாம். உடனடியாக அவசர சிகிச்சை பிரிவுக்கு கொண்டு செல்லவும்."
+      },
+      "skin": {
+        "first_aid_en": "Wash hands and exposed skin thoroughly with soap and water.",
+        "first_aid_ta": "கைகள் மற்றும் தோலை சோப்பு மற்றும் நீரால் நன்கு கழுவவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes with clean water for 15 minutes. Seek medical care.",
+        "first_aid_ta": "15 நிமிடங்களுக்கு கண்களை நீரில் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air. If powder or phosphine gas was inhaled, emergency medical monitoring is mandatory.",
+        "first_aid_ta": "வெளிக்காற்றிற்கு மாற்றவும். உடனடியாக மருத்துவரை அணுகவும்."
+      }
+    },
+    "warning_signs": [
+      "Garlic-like or decaying fish odor on breath (indicates zinc phosphide)",
+      "Spontaneous bleeding from gums, nose, or in urine/stool (anticoagulant effect)",
+      "Unexplained large purple bruises (ecchymoses) under skin",
+      "Severe abdominal pain and liver enlargement (phosphorus toxicity)",
+      "Sudden collapse or shock"
+    ],
+    "contraindications": "Never delay hospital transport. Anticoagulant effects may appear silently 24-72 hours after ingestion.",
+    "helpline": "National Poison Information Centre (AIIMS New Delhi): 1800-116-117 / 011-26588669 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_dettol",
+    "canonical_name": "Chloroxylenol (Dettol Antiseptic)",
+    "generic_name": "Chloroxylenol / Terpineol / Isopropanol Mixture",
+    "brand_names": ["Dettol Antiseptic Liquid", "Savlon Antiseptic", "Lifebuoy Antiseptic", "Fairgenol"],
+    "synonyms": ["dettol", "savlon", "antiseptic liquid", "chloroxylenol", "pcmx", "antiseptic", "detol"],
+    "active_ingredients": ["Chloroxylenol 4.8% w/v, Terpineol 9.0% v/v, Isopropanol"],
+    "chemical_names": ["4-chloro-3,5-dimethylphenol"],
+    "category": "Household Antiseptic / Phenolic Disinfectant",
+    "common_forms": ["Amber Brown Liquid (turns milky white in water)"],
+    "risk_level": "URGENT",
+    "description": "Common household antiseptic. Ingestion of concentrated solution causes corrosion of oral/esophageal mucosa, chemical gastritis, CNS depression, and risk of fatal pulmonary aspiration.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting (phenolic and essential oils present severe aspiration pneumonia risk). Rinse mouth with water. If conscious, give small sips of water to dilute. Keep patient sitting upright and transport to medical facility.",
+        "first_aid_ta": "வாந்தி எடுக்க வைக்க வேண்டாம் (நுரையீரலுக்குள் சென்றால் கடுமையான நிமோனியா ஏற்படும்). வாயை நீரால் கொப்பளிக்கவும். சிறிதளவு தண்ணீர் குடிக்க வைக்கலாம். நோயாளியை நிமிர்த்தி அமரவைத்து மருத்துவமனைக்கு கொண்டு செல்லவும்."
+      },
+      "skin": {
+        "first_aid_en": "Wash with plenty of water. Remove saturated clothing.",
+        "first_aid_ta": "அதிக நீரால் கழுவவும். நனைந்த ஆடைகளை அகற்றவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes with gently running clean water for 15 minutes. Seek eye doctor if redness or pain persists.",
+        "first_aid_ta": "15 நிமிடங்களுக்கு கண்களை சுத்தமான நீரால் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air.",
+        "first_aid_ta": "நல்ல காற்றோட்டமுள்ள இடத்திற்கு செல்லவும்."
+      }
+    },
+    "warning_signs": [
+      "Severe burning in mouth and throat",
+      "Stridor or coughing (laryngeal edema or aspiration)",
+      "Unsteady gait, confusion, or drowsiness",
+      "Bradycardia or hypotension",
+      "Metabolic acidosis in large ingestions"
+    ],
+    "contraindications": "Never induce vomiting. Do NOT administer fatty substances or oils which increase phenolic absorption.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_sanitizer",
+    "canonical_name": "Hand Sanitizer (Alcohol Rub)",
+    "generic_name": "Ethyl Alcohol / Isopropyl Alcohol Sanitizer",
+    "brand_names": ["Dettol Hand Sanitizer", "Lifebuoy Sanitizer", "Sterillium", "Purell", "Himalaya Sanitizer"],
+    "synonyms": ["sanitizer", "hand sanitizer", "alcohol gel", "rubbing alcohol", "ethanol gel", "isopropyl alcohol", "hand rub", "isopropanol"],
+    "active_ingredients": ["Ethanol (60-80%) or Isopropanol (70%)"],
+    "chemical_names": ["Ethanol", "Propan-2-ol"],
+    "category": "Alcohol / Disinfectant",
+    "common_forms": ["Clear Gel", "Liquid Spray", "Foam"],
+    "risk_level": "MODERATE",
+    "description": "High-concentration alcohol gel. Accidental ingestion in children can rapidly trigger alcohol intoxication, profound hypoglycemia (dangerously low blood sugar), hypothermia, seizures, and respiratory depression.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting. If a child ingested more than a taste, check consciousness and monitor blood sugar if diabetic. Offer a sweetened drink (fruit juice or sugar water) if alert to prevent alcohol-induced hypoglycemia. If more than a small sip was swallowed or child is lethargic, seek medical care.",
+        "first_aid_ta": "வாந்தி எடுக்க வைக்க வேண்டாம். குழந்தைகள் உட்கொண்டால் இரத்தத்தில் சர்க்கரை அளவு மிகவும் குறையலாம். விழிப்பாக இருந்தால் சிறிதளவு இனிப்பு பானம் அல்லது பழச்சாறு கொடுக்கவும். அதிக அளவு உட்கொண்டிருந்தால் மருத்துவரிடம் அழைத்துச் செல்லவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes immediately with clean water for 10-15 minutes. Burning is intense but usually resolves without permanent corneal injury.",
+        "first_aid_ta": "10-15 நிமிடங்கள் கண்களை சுத்தமான நீரால் உடனடியாகக் கழுவவும்."
+      },
+      "skin": {
+        "first_aid_en": "Standard topical use is safe. Wash with water if irritated.",
+        "first_aid_ta": "நீரால் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air if dizziness occurs from heavy vapor inhalation.",
+        "first_aid_ta": "நல்ல காற்றோட்டமுள்ள இடத்திற்கு செல்லவும்."
+      }
+    },
+    "warning_signs": [
+      "Slurred speech, ataxia (stumbling gait), or extreme drowsiness",
+      "Hypoglycemia (sweating, paleness, shakiness in young children)",
+      "Hypothermia (cold clammy skin)",
+      "Shallow or irregular breathing",
+      "Seizures (from profound low blood glucose in children)"
+    ],
+    "contraindications": "Do NOT induce vomiting. Never leave an intoxicated child unmonitored.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_detergent",
+    "canonical_name": "Laundry Detergent & Pods",
+    "generic_name": "Anionic & Non-ionic Surfactants",
+    "brand_names": ["Surf Excel", "Ariel", "Tide", "Rin", "Vim Liquid", "Pril", "Henko", "Aerial Pods"],
+    "synonyms": ["detergent", "soap", "washing powder", "laundry pod", "liquid detergent", "dishwasher liquid", "surf", "washing soap", "surfactant"],
+    "active_ingredients": ["Alkylbenzene sulfonates, ethoxylated alcohols, alkaline builders"],
+    "chemical_names": ["Linear Alkylbenzene Sulfonate"],
+    "category": "Household Cleaning Surfactant",
+    "common_forms": ["Powder", "Liquid", "Concentrated Gel Pods"],
+    "risk_level": "MODERATE",
+    "description": "Surfactant-based cleaning products. Liquid detergent pods contain highly concentrated surfactants under pressure; when bitten by children, they cause severe chemical burns, airway swelling, and aspiration.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting (creates massive foaming in stomach and airway). Rinse mouth with water. If conscious, give a few sips of water. If concentrated laundry pod was punctured or swallowed, call 112/108 immediately due to risk of airway edema.",
+        "first_aid_ta": "வாந்தி எடுக்க வைக்க வேண்டாம் (அதிக நுரை உருவாகி மூச்சுப்பாதையை அடைக்கும்). வாயை நீரால் கொப்பளிக்கவும். சிறிதளவு தண்ணீர் குடிக்க வைக்கலாம். லிக்விட் பாட் (Liquid Pod) கடித்திருந்தால் உடனே மருத்துவமனைக்கு செல்லவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes with clean running water for 15-20 minutes. Pod squirts cause severe corneal injury requiring prompt eye specialist review.",
+        "first_aid_ta": "15-20 நிமிடங்கள் சுத்தமான நீரால் கண்களைத் தொடர்ந்து கழுவவும்."
+      },
+      "skin": {
+        "first_aid_en": "Rinse skin with running water and remove contaminated clothes.",
+        "first_aid_ta": "நீரால் நன்கு கழுவி ஆடைகளை மாற்றவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air.",
+        "first_aid_ta": "நல்ல காற்றோட்டமுள்ள இடத்திற்கு செல்லவும்."
+      }
+    },
+    "warning_signs": [
+      "Stridor, wheezing, or difficulty breathing (especially with pods)",
+      "Persistent profuse vomiting or foaming at the mouth",
+      "Severe eye pain, photophobia, or vision loss",
+      "Lethargy or loss of consciousness"
+    ],
+    "contraindications": "Never induce vomiting due to high risk of airway occlusion by surfactant foam.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_thinner",
+    "canonical_name": "Paint Thinner & Solvents",
+    "generic_name": "Toluene / Xylene / Acetone / Mineral Spirits Mixture",
+    "brand_names": ["Asian Paints Thinner", "NC Thinner", "Berger Thinner", "Duco Thinner"],
+    "synonyms": ["thinner", "paint thinner", "nail polish remover", "acetone", "toluene", "turpentine", "varnish thinner", "lacquer thinner"],
+    "active_ingredients": ["Toluene, Xylene, Acetone, Esters, Aliphatic Hydrocarbons"],
+    "chemical_names": ["Methylbenzene / Dimethylbenzene"],
+    "category": "Organic Solvent / Volatile Hydrocarbon",
+    "common_forms": ["Clear Fast-Evaporating Liquid"],
+    "risk_level": "CRITICAL",
+    "description": "Aromatic and aliphatic organic solvents. Highly volatile. Ingestion carries extreme risk of chemical pneumonitis. Inhalation produces rapid CNS depression, cardiac arrhythmias (sudden sniffing death), and neurological toxicity.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "DO NOT INDUCE VOMITING. Aspiration into the lungs causes fatal chemical pneumonitis. Rinse mouth with water. If conscious, give small sips of water. Call 112/108 immediately.",
+        "first_aid_ta": "எந்த சூழ்நிலையிலும் வாந்தி எடுக்க வைக்க வேண்டாம். நுரையீரலில் ஆவி சென்றால் மரணம் ஏற்படலாம். வாயை நீரால் கொப்பளித்து உடனே 112/108ஐ அழைக்கவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move patient to fresh air immediately. Keep patient calm and at rest. Avoid physical exertion as adrenaline can trigger fatal cardiac arrhythmias in solvent-sensitized hearts.",
+        "first_aid_ta": "உடனே நல்ல காற்றோட்டமுள்ள இடத்திற்கு மாற்றவும். நோயாளியை அமைதியாக ஓய்வெடுக்க வைக்கவும் (இதயத் துடிப்பு தாறுமாறாகாமல் தடுக்க)."
+      },
+      "skin": {
+        "first_aid_en": "Remove contaminated clothing. Wash skin thoroughly with soap and water.",
+        "first_aid_ta": "ஆடைகளை கழற்றிவிட்டு தோலை சோப்பு மற்றும் நீரால் கழுவவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush eyes with clean water for 15-20 minutes.",
+        "first_aid_ta": "15-20 நிமிடங்களுக்கு கண்களை நீரில் கழுவவும்."
+      }
+    },
+    "warning_signs": [
+      "Severe dizziness, hallucinations, or unresponsiveness",
+      "Irregular or rapid heartbeat (arrhythmia)",
+      "Severe coughing, choking, or shortness of breath",
+      "Seizures or sudden collapse"
+    ],
+    "contraindications": "Never induce vomiting. Avoid sudden fright or strenuous physical activity.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_mothballs",
+    "canonical_name": "Naphthalene (Mothballs)",
+    "generic_name": "Naphthalene / Paradichlorobenzene",
+    "brand_names": ["Tiger Brand Naphthalene Balls", "Bengal Chemical Mothballs", "Odonil Wardrobe Balls"],
+    "synonyms": ["mothballs", "naphthalene", "naphthalene balls", "camphor balls", "wardrobe balls", "karpooram", "closet balls"],
+    "active_ingredients": ["Naphthalene or 1,4-Dichlorobenzene"],
+    "chemical_names": ["Naphthalene / 1,4-Dichlorobenzene"],
+    "category": "Aromatic Hydrocarbon Fumigant",
+    "common_forms": ["Solid White Balls / Cakes"],
+    "risk_level": "URGENT",
+    "description": "Household pest deterrent. Naphthalene causes acute hemolytic anemia (destruction of red blood cells), especially in individuals with G6PD enzyme deficiency, leading to jaundice and acute kidney injury.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "Do NOT induce vomiting. Rinse mouth thoroughly. Do NOT give milk or oily fatty foods (fats dramatically increase naphthalene absorption). Seek emergency medical evaluation.",
+        "first_aid_ta": "வாந்தி எடுக்க வைக்க வேண்டாம். வாயை நீரால் நன்கு கழுவவும். பால் அல்லது எண்ணெய் பொருட்கள் கொடுக்க வேண்டாம் (அது விஷம் அதிகம் உறிஞ்சப்பட வழிவகுக்கும்). உடனே மருத்துவமனைக்கு செல்லவும்."
+      },
+      "eye": {
+        "first_aid_en": "Flush with clean water for 15 minutes.",
+        "first_aid_ta": "15 நிமிடங்களுக்கு கண்களை நீரில் கழுவவும்."
+      },
+      "skin": {
+        "first_aid_en": "Wash with soap and water.",
+        "first_aid_ta": "சோப்பு மற்றும் நீரால் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "Move to fresh air away from wardrobe/closet vapors.",
+        "first_aid_ta": "நல்ல காற்றோட்டமுள்ள இடத்திற்கு செல்லவும்."
+      }
+    },
+    "warning_signs": [
+      "Dark tea-colored or red urine (hemoglobinuria)",
+      "Rapidly developing paleness and fatigue (acute hemolysis)",
+      "Yellowing of skin or eyes (jaundice)",
+      "Nausea, vomiting, and abdominal pain",
+      "Seizures or confusion in children"
+    ],
+    "contraindications": "Never give milk, butter, or fatty foods which dissolve and absorb naphthalene.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  },
+  {
+    "id": "sub_button_battery",
+    "canonical_name": "Button Battery (Disc Battery)",
+    "generic_name": "Lithium / Alkaline Coin Cell Battery",
+    "brand_names": ["CR2032", "CR2025", "LR44", "Energizer Coin", "Duracell Button", "Watch Battery"],
+    "synonyms": ["button battery", "coin battery", "disc battery", "watch battery", "lithium coin cell", "small battery", "calculator battery"],
+    "active_ingredients": ["Lithium / Alkaline / Potassium Hydroxide electrolyte"],
+    "chemical_names": ["Electrochemical Cell"],
+    "category": "Electrochemical Ingestion Hazard / Corrosive Threat",
+    "common_forms": ["Shiny Metallic Disc"],
+    "risk_level": "CRITICAL",
+    "description": "EXTREME PEDIATRIC EMERGENCY: If lodged in the esophagus, an electrical current forms that hydrolyzes tissue fluid into caustic sodium hydroxide within 2 hours, resulting in fatal esophageal perforation or aorto-esophageal fistula.",
+    "exposure_guidance": {
+      "swallowed": {
+        "first_aid_en": "CRITICAL EMERGENCY: Transport immediately to an emergency hospital with pediatric endoscopy capabilities. Do NOT give laxatives. Do NOT induce vomiting. If patient is over 1 year old and battery was swallowed less than 12 hours ago, administer 2 teaspoons (10 ml) of commercial HONEY every 10 minutes (up to 6 doses) while en route to hospital (honey coats the battery and neutralizes alkaline current). Do NOT delay transport.",
+        "first_aid_ta": "மிக மிக அவசர நிலை: உடனடியாக குழந்தைகள் அவசர அறுவை சிகிச்சை வசதி உள்ள மருத்துவமனைக்கு கொண்டு செல்லவும். வாந்தி எடுக்க வைக்க வேண்டாம். 1 வயதுக்கு மேற்பட்ட குழந்தையாக இருந்தால் மருத்துவமனைக்கு செல்லும் வழியில் ஒவ்வொரு 10 நிமிடத்திற்கும் 2 தேக்கரண்டி சுத்தமான தேன் கொடுக்கலாம் (தேன் இரசாயன வினையைத் தடுக்கும்). தாமதிக்காமல் உடனே செல்லவும்."
+      },
+      "eye": {
+        "first_aid_en": "Not applicable.",
+        "first_aid_ta": "பொருந்தாது."
+      },
+      "skin": {
+        "first_aid_en": "Wash with water if electrolyte leaked.",
+        "first_aid_ta": "நீரால் கழுவவும்."
+      },
+      "inhaled": {
+        "first_aid_en": "If aspirated into airway, call 112/108 immediately.",
+        "first_aid_ta": "மூச்சுப்பாதையில் அடைத்தால் உடனே 112/108ஐ அழைக்கவும்."
+      }
+    },
+    "warning_signs": [
+      "Dysphagia (difficulty or inability to swallow)",
+      "Chest pain or back pain in children",
+      "Refusal to eat or fever",
+      "Vomiting or coughing up blood (catastrophic aortic bleeding)",
+      "Drooling and irritability"
+    ],
+    "contraindications": "Do not give honey to infants under 12 months (infant botulism risk). Do not delay hospital endoscopy.",
+    "helpline": "National Poison Information Centre (AIIMS): 1800-116-117 | Emergency: 112 / 108"
+  }
+]

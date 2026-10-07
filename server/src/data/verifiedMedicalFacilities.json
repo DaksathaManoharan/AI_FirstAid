@@ -1,0 +1,189 @@
+[
+  {
+    "id": "med-pollachi-1",
+    "name": "Pollachi Government Headquarters Hospital",
+    "type": "hospital",
+    "latitude": 10.6617,
+    "longitude": 77.0092,
+    "address": "Opp. Municipal Office, Palakkad Road, Pollachi, Tamil Nadu 642001",
+    "phone": "04259-223344",
+    "openingHours": "24/7 Emergency & Trauma Care",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-2",
+    "name": "N.G. Hospital & Trauma Center",
+    "type": "hospital",
+    "latitude": 10.6558,
+    "longitude": 77.0142,
+    "address": "Coimbatore Road, Mahalingapuram, Pollachi, Tamil Nadu 642002",
+    "phone": "04259-222888",
+    "openingHours": "24/7 Emergency",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-3",
+    "name": "Dr. Mahalingam Memorial Hospital & Emergency Care",
+    "type": "hospital",
+    "latitude": 10.6695,
+    "longitude": 77.0118,
+    "address": "Udumalpet Road, Pollachi, Tamil Nadu 642003",
+    "phone": "04259-234500",
+    "openingHours": "24/7 Emergency",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-4",
+    "name": "Apollo Pharmacy 24/7 - Pollachi",
+    "type": "pharmacy",
+    "latitude": 10.6592,
+    "longitude": 77.0081,
+    "address": "Palakkad Road, Near New Bus Stand, Pollachi, Tamil Nadu 642001",
+    "phone": "04259-228765",
+    "openingHours": "24/7 Open",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-5",
+    "name": "MedPlus Pharmacy & Medical Store",
+    "type": "pharmacy",
+    "latitude": 10.6625,
+    "longitude": 77.0125,
+    "address": "Coimbatore Main Road, Mahalingapuram, Pollachi, Tamil Nadu 642002",
+    "phone": "04259-231122",
+    "openingHours": "07:00 - 23:00",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-6",
+    "name": "Thulasi 24/7 Medicals & Surgical Store",
+    "type": "pharmacy",
+    "latitude": 10.6575,
+    "longitude": 77.0062,
+    "address": "Near Government Hospital, Palakkad Main Road, Pollachi, Tamil Nadu 642001",
+    "phone": "04259-229900",
+    "openingHours": "24/7 Open",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-7",
+    "name": "LifeCare Medicals & Emergency Drug Store",
+    "type": "pharmacy",
+    "latitude": 10.6641,
+    "longitude": 77.0155,
+    "address": "Udumalpet Road, Venkatesa Colony, Pollachi, Tamil Nadu 642001",
+    "phone": "04259-224411",
+    "openingHours": "08:00 - 23:30",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-8",
+    "name": "Pollachi Junction Railway Station Public AED Unit",
+    "type": "aed",
+    "latitude": 10.6548,
+    "longitude": 77.0035,
+    "address": "Platform 1 Near Station Master Office, Pollachi Junction, Pollachi, Tamil Nadu 642001",
+    "phone": "139",
+    "openingHours": "24/7 Accessible",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-pollachi-9",
+    "name": "Municipal Central Bus Stand Emergency AED",
+    "type": "aed",
+    "latitude": 10.6602,
+    "longitude": 77.0078,
+    "address": "Central Bus Stand Terminal A Information Kiosk, Pollachi, Tamil Nadu 642001",
+    "phone": "04259-222333",
+    "openingHours": "24/7 Accessible",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-1",
+    "name": "Coimbatore Medical College Hospital (CMCH)",
+    "type": "hospital",
+    "latitude": 11.0028,
+    "longitude": 76.9678,
+    "address": "Trichy Road, Near Collector Office, Coimbatore, Tamil Nadu 641018",
+    "phone": "0422-2301393",
+    "openingHours": "24/7 Emergency & Trauma Care",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-2",
+    "name": "KMCH - Kovai Medical Center and Hospital",
+    "type": "hospital",
+    "latitude": 11.0427,
+    "longitude": 77.0378,
+    "address": "99, Avinashi Road, Civil Aerodrome Post, Coimbatore, Tamil Nadu 641014",
+    "phone": "0422-4323800",
+    "openingHours": "24/7 Emergency & Level 1 Trauma",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-3",
+    "name": "PSG Hospitals",
+    "type": "hospital",
+    "latitude": 11.0258,
+    "longitude": 77.0028,
+    "address": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "phone": "0422-2570170",
+    "openingHours": "24/7 Emergency",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-4",
+    "name": "Ganga Hospital - Ortho & Trauma Care",
+    "type": "hospital",
+    "latitude": 11.0242,
+    "longitude": 76.9535,
+    "address": "313, Mettupalayam Road, Sai Baba Colony, Coimbatore, Tamil Nadu 641043",
+    "phone": "0422-2485000",
+    "openingHours": "24/7 Emergency",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-5",
+    "name": "Apollo Pharmacy 24/7 - Gandhipuram",
+    "type": "pharmacy",
+    "latitude": 11.0182,
+    "longitude": 76.9678,
+    "address": "Cross Cut Road, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "phone": "0422-2498877",
+    "openingHours": "24/7 Open",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-6",
+    "name": "Thulasi Pharmacies India Pvt Ltd",
+    "type": "pharmacy",
+    "latitude": 11.0215,
+    "longitude": 76.9552,
+    "address": "Mettupalayam Road, Near Flower Market, Coimbatore, Tamil Nadu 641002",
+    "phone": "0422-2432244",
+    "openingHours": "24/7 Open",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-7",
+    "name": "Coimbatore International Airport Terminal AED",
+    "type": "aed",
+    "latitude": 11.0298,
+    "longitude": 77.0434,
+    "address": "Departure Lounge Level 1, Airport Rd, Peelamedu, Coimbatore, Tamil Nadu 641014",
+    "phone": "0422-2592155",
+    "openingHours": "24/7 Accessible",
+    "source": "verified_registry"
+  },
+  {
+    "id": "med-cbe-8",
+    "name": "Coimbatore Junction Railway Station AED",
+    "type": "aed",
+    "latitude": 10.9984,
+    "longitude": 76.9632,
+    "address": "Main Concourse Near Enquiry, State Bank Rd, Gopalapuram, Coimbatore, Tamil Nadu 641018",
+    "phone": "139",
+    "openingHours": "24/7 Accessible",
+    "source": "verified_registry"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "ai-first-aid-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "prisma:generate": "npx prisma generate --schema=server/prisma/schema.prisma",
+    "prisma:migrate": "npx prisma migrate dev --schema=server/prisma/schema.prisma",
+    "prisma:seed": "node server/prisma/seed.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
