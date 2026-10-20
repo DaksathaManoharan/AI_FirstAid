@@ -40,8 +40,8 @@ app.use(cors({
 }));
 
 // Set body parsers with limits for base64 canvas image triage uploads
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ limit: '10mb', extended: true }));
+app.use(express.json({ limit: '25mb' }));
+app.use(express.urlencoded({ limit: '25mb', extended: true }));
 
 // Rate limit AI APIs to prevent key exhaustion
 const aiLimiter = rateLimit({

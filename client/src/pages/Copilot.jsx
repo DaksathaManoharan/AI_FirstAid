@@ -181,7 +181,34 @@ export default function Copilot() {
     setCameraActive(false);
   };
 
-  const capturePhoto = () => {
+  const optimizeImage = (dataUrl, maxWidth = 1024, maxHeight = 1024, quality = 0.85) => {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => {
+        let width = img.width;
+        let height = img.height;
+        if (width > maxWidth || height > maxHeight) {
+          if (width > height) {
+            height = Math.round((height * maxWidth) / width);
+            width = maxWidth;
+          } else {
+            width = Math.round((width * maxHeight) / height);
+            height = maxHeight;
+          }
+        }
+        const canvas = document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+        resolve(canvas.toDataURL('image/jpeg', quality));
+      };
+      img.onerror = () => resolve(dataUrl);
+      img.src = dataUrl;
+    });
+  };
+
+  const capturePhoto = async () => {
     if (!videoRef.current || !canvasRef.current) return;
     const video = videoRef.current;
     const canvas = canvasRef.current;
@@ -191,7 +218,8 @@ export default function Copilot() {
     canvas.height = video.videoHeight || 480;
     
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-    const dataUrl = canvas.toDataURL('image/jpeg');
+    const rawDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+    const dataUrl = await optimizeImage(rawDataUrl);
     
     setImagePreview(dataUrl);
     stopCamera();
@@ -203,8 +231,9 @@ export default function Copilot() {
     if (!file) return;
 
     const reader = new FileReader();
-    reader.onload = (event) => {
-      const dataUrl = event.target.result;
+    reader.onload = async (event) => {
+      const rawDataUrl = event.target.result;
+      const dataUrl = await optimizeImage(rawDataUrl);
       setImagePreview(dataUrl);
       analyzeImagePayload(dataUrl);
     };

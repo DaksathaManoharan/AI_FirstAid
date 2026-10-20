@@ -43,8 +43,8 @@ AI First Aid is an advanced, bilingual emergency decision-support web applicatio
 
 - **Frontend**: React 19, Vite, Tailwind CSS (or Custom Glassmorphism System), React Router 6, Leaflet (React Leaflet), Lucide icons, Web Speech API, Geolocation API, Web Audio API.
 - **Backend**: Node.js, Express.js, JWT Authentication, Helmet, Express Rate Limit.
-- **Database & ORM**: PostgreSQL, Prisma ORM.
-- **AI API**: Google Gemini 1.5 Flash (via secure backend REST fetch).
+- **Database & ORM**: MySQL, Prisma ORM.
+- **AI API**: Google Gemini (via secure backend REST fetch).
 
 ---
 
@@ -74,7 +74,7 @@ ai-first-aid/ (Workspace Root)
 │   │   ├── config/          # Prisma client and environment configuration
 │   │   └── server.js        # Main Express server entrypoint
 │   ├── prisma/
-│   │   ├── schema.prisma    # PostgreSQL Schema models
+│   │   ├── schema.prisma    # MySQL Schema models
 │   │   └── seed.js          # Seed script for guides
 │   ├── package.json
 │   └── .env
@@ -90,7 +90,7 @@ ai-first-aid/ (Workspace Root)
 
 ### Prerequisites
 1. **Node.js** (v18.0.0 or higher).
-2. **PostgreSQL** instance running.
+2. **MySQL** Server running (e.g. MySQL 8.0 on port 3306).
 
 ### Step 1: Clone and install dependencies
 At the root of the project directory, run:
@@ -101,24 +101,23 @@ npm run install:all
 ```
 
 ### Step 2: Configure Environment Variables
-Create a `.env` file in the `server/` directory (you can copy `server/.env.example`):
+Create a `.env` file in the `server/` directory:
 ```bash
 cp server/.env.example server/.env
 ```
 Update the values:
-- `DATABASE_URL`: Set your PostgreSQL connection string:
-  `postgresql://username:password@localhost:5432/ai_first_aid?schema=public`
+- `DATABASE_URL`: Set your MySQL connection string:
+  `mysql://root:password@localhost:3306/ai_first_aid`
 - `GEMINI_API_KEY`: Set your Google Gemini API Key.
 - `JWT_SECRET`: Set a secure string for JWT generation.
 
 ### Step 3: Run Database Migrations and Seeding
-Deploy the schema to your PostgreSQL database and seed the guides:
+Deploy the schema to your MySQL database and seed the guides:
 ```bash
-# Run migration
-npm run prisma:migrate
+# Push schema to MySQL
+npx prisma db push
 
 # Seed guides and checklists
-npm run prisma:seed
 ```
 
 ### Step 4: Run Application
